@@ -1,29 +1,15 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FloraCare Shop</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FloraCare Shop</title>
 </head>
 <body>
-    <!-- Root-Container für deine App -->
-    <div id="root"></div>
+  <!-- Hier rendert dein JavaScript die Seite -->
+  <div id="root"></div>
 
-    <!-- Entities laden -->
-    <script src="FloraCare/Entities/Product.js"></script>
-    <script src="FloraCare/Entities/Order.js"></script>
-
-    <!-- Components laden -->
-    <script src="FloraCare/Components/ProductCard.js"></script>
-    <script src="FloraCare/Components/ProductDetail.js"></script>
-
-    <!-- Pages laden -->
-    <script src="FloraCare/Pages/Home.js"></script>
-    <script src="FloraCare/Pages/Products.js"></script>
-    <script src="FloraCare/Pages/Cart.js"></script>
-    <script src="FloraCare/Pages/About.js"></script>
-
-    <!-- Layout zuletzt laden -->
-    <script src="FloraCare/Layout.js"></script>
+  <!-- Wichtig: Layout.js als ES-Modul laden -->
+  <script type="module" src="FloraCare/Layout.js"></script>
 </body>
 </html>
